@@ -1,0 +1,48 @@
+	.right_con{ padding-right: 130px; }
+
+	.signin{ padding-right:60px; }
+	.list{
+		font-size: 20px;}
+	.logoplace{
+		font-size: 25px;
+		padding-top: 35px;
+		lighting-color: red;}
+	.top_padding{
+		padding-top: 20px;}
+	.button_mov{
+		padding-top: 10px;}
+	.sub-footer{width:100%; margin:0 auto; overflow:hidden; }
+	.footer{width:100%; margin: 0 auto; overflow:hidden; margin-top:700px; border-top: 1px solid; border-color:Silver; background-color:WhiteSmoke; }
+	.footer-content{font-weight:bold;}
+	.margin-left15{margin-left:15px;}
+	.p{color:black; font-family:"Courier New", Courier, monospace}
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+.padd-bot{padding-bottom:0px; background-color:Black;}
+.new{height:200px; border-bottom:1px solid; border-color:Silver;  background-color:Black;}
+.margin-left60{margin-left:80px;}
+.sub_foo_well{height:140px; width:60%; margin-top:10px;}
+.b{font-style:bold;font-size:20px; color:White;}
+.background{background:url(../images/back1.jpg); width:100%; height:280px;}
+.pro_font{font-size:30px; font-style:bold; color:Gray; padding-left:80px; padding-top:10px;}
+.red{color:red; font-size:35px; font-style:bold;padding-left:80px; padding-top:10px;}
+.pro_head{font-size:40px; font-style:bold; color:white; padding-left:200px;padding-top:60px;}
+.pro_back{background-color:LightGray; height:700px; width:100%; margin-top:100px;}
+}
+
+.marginBottom-0 {margin-bottom:0;}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
