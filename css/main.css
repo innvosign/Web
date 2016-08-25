@@ -32,11 +32,11 @@
 .margin-left60{margin-left:80px;}
 .sub_foo_well{height:140px; width:60%; margin-top:10px;}
 .b{font-style:bold;font-size:20px; color:White;}
-.background{background:url(../images/back1.jpg); width:100%; height:280px;}
+.background{background:url(../images/newban.jpg); width:100%; height:280px;}
 .pro_font{font-size:30px; font-style:bold; color:Gray; padding-left:80px; padding-top:10px;}
 .red{color:red; font-size:35px; font-style:bold;padding-left:80px; padding-top:10px;}
 .pro_head{font-size:40px; font-style:bold; color:white; padding-left:200px;padding-top:60px;}
-.pro_back{background-color:LightGray; height:700px; width:100%; margin-top:100px;}
+.pro_back{background-color:LightGray; height:350px; width:100%; margin-top:100px;}
 }
 
 .marginBottom-0 {margin-bottom:0;}
