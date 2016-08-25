@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Latest compiled and minified Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+          $(function(){
+    $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            },
+            function() {
+                $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+                $(this).toggleClass('open');
+                $('b', this).toggleClass("caret caret-up");                
+            });
+    });
+</script>
+<!--own created css-->
+<link href="css/main.css" rel="stylesheet">
+<!-- Optional theme
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+ -->	
+ <title>
+ 	Futurehead Technologies
+ </title>
+</head>
+<body>
+      <div class="container-fluid">
+      <div class="row">
+    	<h2>Futurehead Technologies</h2>
+      <nav class="navbar navbar-default" role="navigation">
+	
+	<!-- Brand and toggle get grouped for better mobile display -->
+	
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="#">HFT LOGO</a>
+    		</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                        <li class=""><a href="#">Home</a></li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                              <li class="dropdown-header"><a href="#">News and Events</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Events Calender</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Newsroom</a></li>
+                                    <li class="dropdown-header"><a href="#">Communications</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Magzine</a></li>
+                                    <li><a href="#">Social Media Directory</a></li>
+                                    <li><a href="#">Videos</a></li>
+                                    <li class="dropdown-header"><a href="#">E-mail Subscriptions</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Subscribe to FHT</a></li>
+                                    <li><a href="#">Communications</a></li>
+                                    <li class="dropdown-header"><a href="#">Careers</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">College Recuriting</a></li>
+                                    <li><a href="#">Campus recruting</a></li>
+                                    <li><a href="#">Internship Opportunities</a></li>
+                                    <li><a href="#">Search for a job</a></li>
+                                    </ul>
+                        </li>
+
+                        
+                        <li class="dropdown">
+                              <a href="pages\products.html" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                    <li class="dropdown-header"><a href="#">FHT Cloud</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header"><a href="#">FHT Mobile</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Applications</a></li>
+                                    <li><a href="#">Customer Experience</a></li>
+                                    <li><a href="#">Enterprise Performance Management</a></li>
+                                    <li><a href="#">Enterprise Resource Planning</a></li>
+                                    <li><a href="#">Human Capital Management</a></li>
+                                    <li><a href="#">Enterprise Performance Management</a></li>
+                                    <li><a href="#">Product Life Cycle Management</a></li>
+                                    <li><a href="#">Supply Chain Management</a></li>
+                                    <li><a href="#">Industry Applications</a></li>
+                                    <li><a href="#">Applications Product Lines</a></li>
+                                    <li><a href="#">FHT Modern Best Pratices</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header right-align"><a href="">Enterprise Management</a></li>
+                                    <li><a href="">Cloud Management</a></li>
+                                    <li><a href="">Application Management</a></li>
+                                    <li><a href="">Database Management</a></li>
+                                    <li><a href="">Middleware Management</a></li>
+                                    <li><a href="">Life Cycle Management</a></li>
+                              </ul>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                    <li><a href="#">Web Solutions Services</a></li>
+                                    <li><a href="#">ERP Financial Management System</a></li>
+                                    <li><a href="#">ERP Human Resource Management With Biometric System</a></li>
+                                    <li><a href="#">ERP Human Resource Management With Biometric System</a></li>
+                                    <li><a href="#">Account/Inventory/Bar Coding</a></li>
+                                    <li><a href="#">Client-Server Applications</a></li>
+                                    <li><a href="#">Web Hosting Services</a></li>
+                              </ul>
+                              <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Training<b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                    <li><a href="#">Training 1</a></li>
+                                    <li><a href="#">Training 2</a></li>
+                                    <li><a href="#">Training 3</a></li>
+                                    <li><a href="#">Training 4</a></li>
+                              </ul>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                              <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                              </div>
+                              <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                              <li><a href="#">Sign in</a></li>
+                              <li><a href="#">Sign up</a></li>
+                        </ul>
+
+            </div>
+
+            <!-- /.navbar-collapse -->
+  
+      </nav>
+      </div>
+</div>
+
+
+<!--middle-panel-->
+<div class="background">
+<div class="pro_font">
+FHT Products And Solutions
+</div>
+<div class="pro_head">
+IDEAS ,INNOVATION AND <br>
+TECHONOLOGIES
+</div>
+</div>
+
+<div class="pro_back">
+<div>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+	$("#flip1").click(function(){
+		$("#panel1").slideToggle("slow");
+	})
+});
+$(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideToggle("slow");
+  })
+});
+
+</script>
+
+<style> 
+#panel, #flip {
+	font-size:20px;
+    padding: 15px;
+    text-align: center;
+    background-color: Black;
+    border: solid 1px #c3c3c3;
+    color:White;
+}
+
+#panel {
+    padding: 60px;
+    display: none;
+    background-color: Brown;
+}
+#panel1, #flip1 {
+	font-size:20px;
+    padding: 15px;
+    text-align: center;
+    background-color: Black;
+    border: solid 1px #c3c3c3;
+    color:White;
+}
+
+#panel1 {
+    padding: 60px;
+    display: none;
+    background-color: Brown;
+}
+#panel2, #flip2 {
+  font-size:20px;
+    padding: 15px;
+    text-align: center;
+    background-color: Black;
+    border: solid 1px #c3c3c3;
+    color:White;
+}
+
+#panel2 {
+    padding: 60px;
+    display: none;
+    background-color: Brown;
+}
+</style>
+
+ 
+<div id="flip">FHT Product And Services<p style="font-size:15px;"><u>More</u></p></div>
+<div id="panel">This is about fht products and services. As this is a platform for providing better services to people who enroll with us.</div></div>
+<br>
+<br>
+<br>
+<div id="flip1">FHT Product And Solutions<p style="font-size:15px;"><u>More</u></p></div>
+<div id="panel1">FHT has its own products and Strict Solutions for it</div>
+<br>
+<br>
+<br>
+<div id="flip2">FHT Product And Solutions<p style="font-size:15px;"><u>More</u></p></div>
+<div id="panel2">FHT has its own products and Strict Solutions for it</div>
+
+
+
+<!--script>
+function lighton() {
+    document.getElementById('myimage').src = "download.png";
+}
+function lightoff() {
+    document.getElementById('myimage').src = "images\link.png";
+}
+</script>
+</head>
+
+<body>
+
+<img id="myimage" onmousedown="lighton()" onmouseup="lightoff()" src="images\link.png" width="100" height="180" />
+
+<p>Click mouse and hold down!</p-->
+   <img id="myImage" src="link.png" style="width:100px"  onmousedown="document.getElementById('myImage').src='mer.jpg'" onmouseup="document.getElementById('myImage').src='link.jpg'">
+
+
+     
+</div>
+
+
+<div class="footer">
+<div class="sub-footer" >
+	<div class="panel panel-default padd-bot" >
+	<div class="panel-footer new">
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-4">
+	<div class="b">SERVICES AND STORE</div>
+	<div class="well well-lg sub_foo_well1">
+	<a href="" class="color">Login To My FHT Support</a><br>
+	<a href="" class="color">Training And Certification</a><br>
+	<a href="" class="color">Become A Partener</a><br>
+	<a href="" class="color">Find A Partner Solution</a><br>
+	<a href="" class="color">Ideas From FHT Store</a>
+	</div>
+	</div>
+	<div class="col-sm-4">
+	<div class="b">Customer And Events</div>
+	<div class="well well-lg sub_foo_well2">
+	<a href="" class="color">Explore And Read Customer Studies</a><br>
+	<a href="" class="color">All New Products In Market</a><br>
+	<h5><u>EMAIL SUBSCRIPTION</u></h5>
+	<a href=""class="color">Subscribe To FHT Communication</a>
+	</div>
+	</div>
+	<div class="col-sm-4">
+	<div class="b">CONTACT US</div>
+	<div class="well well-lg sub_foo_well" >
+		<h5><u>CONTACT AND CHAT</u></h5>
+		<strong>indian sales:+9808216568<br>
+		mail:&nbsp;<a href="" class="color">akshat41121996@gmail.com</a>
+		</strong><br>
+		<a href="#" class="color">FHT Support</a>
+	</div>
+	</div> 
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+<div class="footer-content">
+<nav class="navbar navbar-bottom">
+	<!--div class="panel panel-default">
+	<div class="panel-footer"-->
+	<div class="container">
+			<h3></h3>
+			<div class="margin-left15" style="text-align: center">
+				<ul class="list-inline">			
+					<li><a href="#">Sign Up</a></li>|
+					<li><a href="#">About Us</a></li>|
+					<li><a href="#">Products</a></li>|
+					<li><a href="#">Solutions</a></li>|
+					<li><a href="">Training</a></li>|
+					<li><a href="">Contact Us</a></li>|
+					<li><a href="">Terms of Use</a></li>
+					<!--li class="pull-right">
+                                    <a href="">
+				              <img src="images\yout.png" height="15" width="30" alt="fb" class="pull-right img-circle">
+				            </a>
+                              </li>
+				      <li class="pull-right">
+                                    <a href="hhttps://www.facebook.com/futureheadtech/">
+				              <img src="images\fb-icon-150x150.jpg" height="15" width="30" alt="fb" class="pull-right">
+				            </a>
+                              </li>
+					<li class="pull-right">
+                                    <a href="">
+                                          <img src="images\download.png" height="15" width="30" alt="tweet" class="pull-right">
+				            </a>
+                              </li>
+				  <li class="pull-right">
+                              <a href="">
+				        <img src="images\link.png" height="15" width="30" alt="fb" class="pull-right">
+				      </a>
+                          </li-->
+				</ul>
+
+				<center>
+                        <div class="p">Copyright &copy; 2016 HF All rights reserved
+                        </div>
+                        </center>				
+	           </div>
+	</div>
+</nav>
+</div>
+</div>
+</body>
+</html>
